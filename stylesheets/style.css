@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(22, 187, 228);
+}
+
+#usercard {
+    background-color: rgb(5, 155, 155);
+    border-radius: 30px;
+    text-align: center;
+    width: 500px;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 20px;
+    filter: drop-shadow(8px 8px 8px rgba(3, 56, 52, 0.733));
+}
+
+#cat {
+    display: inline-block;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
