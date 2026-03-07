@@ -23,6 +23,7 @@ body, html {
 }
 
 .username {
-    margin-top: 40px;
+    margin: 35px;
     color: rgb(0, 0, 77);
+    font-size: larger;
 }
