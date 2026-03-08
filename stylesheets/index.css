@@ -28,7 +28,7 @@ body, html {
     font-size: 1.8vw;
 }
 
-h1, h4 {
+h1, h3 {
     margin: 0px;
 }
 
@@ -48,13 +48,6 @@ ol {
     list-style-type: none;
 }
 
-.ico {
-    padding: 15px;
-    padding-right: 5px;
-    font-size: 1.3vw;
-    color: black;
-}
-
 .fa-tumblr {
     margin-top: -10px;
     margin-bottom: -10px;
@@ -63,10 +56,10 @@ ol {
 }
 
 .links {
-    text-align: left;
-    font-size: 1.1vw;
-    margin-left: 5%;
+    font-size: 1.75vw;
     color: rgb(19, 38, 100);
+    display: inline-block;
+    padding-top: 4%;
 }
 
 a:visited, a:link, a:hover, a:active {
