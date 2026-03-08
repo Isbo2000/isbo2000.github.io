@@ -40,7 +40,7 @@ a:visited, a:link, a:hover, a:active {
     margin: 1%;
     margin-bottom: 4%;
     color: rgb(0, 11, 31);
-    font-size: 1.8vw;
+    font-size: 3.7vmin;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
@@ -62,7 +62,7 @@ a:visited, a:link, a:hover, a:active {
     display: inline-block;
     width: 85%;
     height: 25%;
-    font-size: 1.2vw;
+    font-size: 2.5vmin;
     color: rgb(0, 11, 31);
     background-color: rgb(69, 190, 190);
     border-radius: inherit;
@@ -77,7 +77,7 @@ a:visited, a:link, a:hover, a:active {
 }
 
 .links {
-    font-size: 1.9vw;
+    font-size: 4vmin;
     color: rgb(19, 38, 100);
     display: inline-block;
     padding-top: 5%;
