@@ -38,8 +38,10 @@ a:visited, a:link, a:hover, a:active {
 .username {
     display: inline-block;
     margin: 1%;
-    color: rgb(41, 41, 41);
+    margin-bottom: 4%;
+    color: rgb(0, 11, 31);
     font-size: 1.8vw;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
 .pronounce {
