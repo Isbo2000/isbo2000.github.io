@@ -32,6 +32,12 @@ h1, h4 {
     margin: 0px;
 }
 
+
+.pronounce {
+    margin: 12px;
+    margin-bottom: -12px;
+}
+
 .bio {
     display: inline-block;
     width: 85%;
