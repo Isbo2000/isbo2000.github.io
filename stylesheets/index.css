@@ -4,15 +4,27 @@ body, html {
     margin: 0;
 }
 
-.usercard {
+.usercard, .main {
     float: left;
+    height: 100%;
     background-color: rgb(4, 146, 146);
     border-radius: 30px;
-    text-align: center;
-    width: 23.5%;
-    height: 100%;
     margin: 1.2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h3 {
+    margin: 0px;
+}
+
+a:visited, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.usercard {
+    text-align: center;
+    width: 23.5%;
 }
 
 .profile {
@@ -30,10 +42,6 @@ body, html {
     font-size: 1.8vw;
 }
 
-h1, h3 {
-    margin: 0px;
-}
-
 .pronounce {
     margin: 12px;
     margin-bottom: -12px;
@@ -44,10 +52,6 @@ h1, h3 {
     width: 85%;
     font-size: 1.2vw;
     margin-bottom: -12px;
-}
-
-ol {
-    list-style-type: none;
 }
 
 .fa-tumblr {
@@ -64,18 +68,7 @@ ol {
     padding-top: 5%;
 }
 
-a:visited, a:link, a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
 .main {
-    float: left;
-    background-color: rgb(4, 146, 146);
-    border-radius: 30px;
     width: 72.5%;
-    height: 100%;
-    margin: 1.2%;
     margin-left: 0.2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
