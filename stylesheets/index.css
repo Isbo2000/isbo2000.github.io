@@ -56,10 +56,10 @@ ol {
 }
 
 .links {
-    font-size: 1.75vw;
+    font-size: 1.9vw;
     color: rgb(19, 38, 100);
     display: inline-block;
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
 a:visited, a:link, a:hover, a:active {
