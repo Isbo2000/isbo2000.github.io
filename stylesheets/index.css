@@ -32,7 +32,6 @@ h1, h4 {
     margin: 0px;
 }
 
-
 .pronounce {
     margin: 12px;
     margin-bottom: -12px;
@@ -42,4 +41,35 @@ h1, h4 {
     display: inline-block;
     width: 85%;
     font-size: 1.2vw;
+    margin-bottom: -12px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.ico {
+    padding: 15px;
+    padding-right: 5px;
+    font-size: 1.3vw;
+    color: black;
+}
+
+.fa-tumblr {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.links {
+    text-align: left;
+    font-size: 1.1vw;
+    margin-left: 5%;
+    color: rgb(19, 38, 100);
+}
+
+a:visited, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }
