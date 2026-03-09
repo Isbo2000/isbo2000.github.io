@@ -105,3 +105,7 @@ body:has(.fa-tumblr:hover) .links {
     margin-left: 2.2%;
     margin-top: 1.9%;
 }
+
+.hidden {
+    display: none;
+}
