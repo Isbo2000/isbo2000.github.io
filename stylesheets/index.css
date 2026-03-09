@@ -22,6 +22,11 @@ a:visited, a:link, a:hover, a:active {
     color: inherit;
 }
 
+.links, .bio, .username, .profile {
+    display: inline-block;
+    color: rgb(19, 38, 100);
+}
+
 .usercard {
     text-align: center;
     width: 23.5%;
@@ -29,17 +34,14 @@ a:visited, a:link, a:hover, a:active {
 
 .profile {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: inline-block;
     border-radius: 100%;
     width: 85%;
     margin-top: 7%;
 }
 
 .username {
-    display: inline-block;
     margin: 1%;
     margin-bottom: 4%;
-    color: rgb(14, 46, 110);
     font-size: 3.7vmin;
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
@@ -54,16 +56,13 @@ a:visited, a:link, a:hover, a:active {
     margin-top: 20px;
     width: 80%;
     height: 3px;
-    background-color: rgb(0, 11, 31);
-
+    background-color: rgb(19, 38, 100);;
 }
 
 .bio {
-    display: inline-block;
     width: 85%;
     height: 25%;
     font-size: 2.5vmin;
-    color: rgb(0, 11, 31);
     background-color: rgb(69, 190, 190);
     border-radius: inherit;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -78,10 +77,8 @@ a:visited, a:link, a:hover, a:active {
 
 .links {
     font-size: 4vmin;
-    color: rgb(19, 38, 100);
-    display: inline-block;
     padding-top: 5%;
-    text-shadow:0 6px 20px rgba(0, 0, 0, 0.19);
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
 .main {
