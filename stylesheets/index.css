@@ -61,7 +61,8 @@ a:visited, a:link, a:hover, a:active {
 
 .bio {
     width: 85%;
-    height: 25%;
+    height: fit-content;
+    padding-bottom: 12px;
     font-size: 2.5vmin;
     background-color: rgb(58, 177, 177);
     border-radius: inherit;
