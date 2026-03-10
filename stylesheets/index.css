@@ -79,16 +79,18 @@ a:visited, a:link, a:hover, a:active {
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
-body:has(.ico:hover) .links {
-    padding-top: 1vmin;
-}
-
-body:has(.fa-tumblr:hover) .links {
-    padding-top: 1.5vmin;
+.ico {
+    transition: text-shadow 0.1s, scale 0.1s;
+    display: inline-block;
+    width: 8.8%;
+    position: relative;
+    z-index: 1;
 }
 
 .ico:hover {
-    font-size: 6vmin;
+    scale: 125%;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
 .main {
