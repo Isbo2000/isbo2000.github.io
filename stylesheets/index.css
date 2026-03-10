@@ -1,3 +1,14 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 body, html {
     background-color: rgb(22, 187, 228);
     height: 97%;
@@ -30,6 +41,7 @@ a:visited, a:link, a:hover, a:active {
 .usercard {
     text-align: center;
     width: 23.5%;
+    overflow: scroll;
 }
 
 .profile {
