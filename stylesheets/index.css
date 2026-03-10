@@ -87,15 +87,10 @@ a:visited, a:link, a:hover, a:active {
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
-.fa-tumblr {
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
 .ico {
     transition: text-shadow 0.1s, scale 0.1s;
     display: inline-block;
-    width: 9.1%;
+    width: 4.25vmin;
     position: relative;
     z-index: 1;
 }
