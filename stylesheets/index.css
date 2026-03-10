@@ -95,17 +95,3 @@ body:has(.fa-tumblr:hover) .links {
     width: 72.5%;
     margin-left: 0.2%;
 }
-
-.sub {
-    background-color: rgb(58, 177, 177);
-    width: 25%;
-    height: 40%;
-    padding: 2%;
-    margin: 2%;
-    margin-left: 2.2%;
-    margin-top: 1.9%;
-}
-
-.hidden {
-    display: none;
-}
