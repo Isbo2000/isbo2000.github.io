@@ -138,3 +138,9 @@ a:visited, a:link, a:hover, a:active {
 .hidden {
     display: none;
 }
+
+.content {
+    height: 90%;
+    width: 90%;
+    margin: 4.5%;
+}
