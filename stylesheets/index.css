@@ -68,11 +68,6 @@ a:visited, a:link, a:hover, a:active {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.fa-tumblr {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 .links {
     font-size: 4vmin;
     padding-top: 3vmin;
@@ -82,13 +77,13 @@ a:visited, a:link, a:hover, a:active {
 .ico {
     transition: text-shadow 0.1s, scale 0.1s;
     display: inline-block;
-    width: 8.8%;
+    width: 8.9%;
     position: relative;
     z-index: 1;
 }
 
 .ico:hover {
-    scale: 125%;
+    scale: 120%;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
     z-index: 2;
 }
