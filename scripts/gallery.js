@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     // Lazy loading fallback
     if ('loading' in HTMLImageElement.prototype) {
 
