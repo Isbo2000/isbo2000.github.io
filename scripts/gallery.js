@@ -1,6 +1,9 @@
 $(document).ready(function () {
     url = 'https://isbo.cc/assets/gallery/gallery.json';
     fetch(url).then(response => {return response.json();}).then(function (data) {
+        var min = 200;
+        var max = 500;
+
         for (var group in data) {
             var newGroup = "";
 
@@ -18,7 +21,9 @@ $(document).ready(function () {
                 newLink += data[group].group;
                 newLink += "'><img class='lazyload' data-src='";
                 newLink += data[group].images[link];
-                newLink += "' loading='lazy'/></a></li>";
+                newLink += "' loading='lazy' width='"
+                newLink += Math.floor(Math.random() * (max - min + 1)) + min;
+                newLink += "'/></a></li>";
 
                 newGroup += newLink;
             }

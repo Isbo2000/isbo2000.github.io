@@ -30,7 +30,7 @@ footer, .photogallery {
 
 .photogallery li {
     flex-grow: 1;
-    height: 40vh;
+    height: 30vh;
     margin: 0.4em;
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -39,9 +39,6 @@ footer, .photogallery {
 }
 
 .photogallery li:hover {
-    flex-grow: 1;
-    height: 40vh;
-    margin: 0.4em;
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 1);
     z-index: 2;
     scale: 101%;
