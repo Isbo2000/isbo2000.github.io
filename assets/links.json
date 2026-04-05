@@ -1,46 +1,46 @@
 [
     {
         "icon": "fa fa-tumblr",
-        "link": "https://www.tumblr.com/isbo2000"
+        "url": "https://www.tumblr.com/isbo2000"
     },
     {
         "icon": "bi bi-discord",
-        "link": "https://discord.com/users/881162566708121601"
+        "url": "https://discord.com/users/881162566708121601"
     },
     {
         "icon": "bi bi-spotify",
-        "link": "https://open.spotify.com/user/yqx61j47k9x3rlsxdudx4dv8z"
+        "url": "https://open.spotify.com/user/yqx61j47k9x3rlsxdudx4dv8z"
     },
     {
         "icon": "fa fa-lastfm",
-        "link": "https://www.last.fm/user/Isbo2000"
+        "url": "https://www.last.fm/user/Isbo2000"
     },
     {
         "icon": "bi bi-github",
-        "link": "https://github.com/Isbo2000"
+        "url": "https://github.com/Isbo2000"
     },
     {
         "icon": "bi bi-twitch",
-        "link": "https://www.twitch.tv/isbo2000"
+        "url": "https://www.twitch.tv/isbo2000"
     },
     {
         "icon": "bi bi-youtube",
-        "link": "https://www.youtube.com/@Isbo2000"
+        "url": "https://www.youtube.com/@Isbo2000"
     },
     {
         "icon": "bi bi-reddit",
-        "link": "https://www.reddit.com/user/Isbo2000/"
+        "url": "https://www.reddit.com/user/Isbo2000/"
     },
     {
         "icon": "bi bi-bluesky",
-        "link": "https://bsky.app/profile/isbo.cc"
+        "url": "https://bsky.app/profile/isbo.cc"
     },
     {
         "icon": "https://twitter.com/isbo2000/",
-        "link": "bi bi-twitter"
+        "url": "bi bi-twitter"
     },
     {
         "icon": "bi-instagram",
-        "link": "https://www.instagram.com/isbo2000/"
+        "url": "https://www.instagram.com/isbo2000/"
     }
 ]

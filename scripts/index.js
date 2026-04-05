@@ -68,4 +68,21 @@ $(document).ready(function () {
         el.style.transform = "perspective(500px) scale(1.1) rotateX(0) rotateY(0)";
     });
     });
+
+    url = 'https://isbo.cc/assets/links.json';
+    fetch(url).then(response => {return response.json();}).then(function (data) {
+        for (let link in data) {
+            let newLink = "";
+
+            newLink += "<a href='";
+            newLink += link.url;
+            newLink += "'><i class='ico ";
+            newLink += link.icon;
+            newLink += "'></i></a>";
+
+            console.log(newLink);
+
+            $('#links').append(newLink);
+        }
+    });
 });
