@@ -24,7 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // object-fit and object-position polyfill
     objectFitImages();
 });
-
-$(document).ready(function () {
-    
-});

@@ -85,6 +85,10 @@ body {
     opacity: 1;
 }
 
+.footer {
+    display: inline-block;
+}
+
 footer {
     padding: 3px;
     padding-left: 2vw;
