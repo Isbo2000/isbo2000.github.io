@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    url = 'https://raw.githubusercontent.com/Isbo2000/isbo2000.github.io/refs/heads/dev/assets/gallery/gallery.json';
+    url = 'https://isbo.cc/assets/gallery/gallery.json';
     fetch(url).then(response => {return response.json();}).then(function (data) {
         for (var group in data) {
             var newGroup = "";
