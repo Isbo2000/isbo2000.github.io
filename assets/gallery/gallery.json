@@ -1,6 +1,6 @@
 [
     {
-        "group": "group-1",
+        "group": "Set 1",
         "images": [
             "https://images.unsplash.com/photo-1577833780113-9ce85d64d49d?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
             "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "group": "group-2",
+        "group": "Set 2",
         "images": [
             "https://images.unsplash.com/photo-1503656142023-618e7d1f435a?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "group": "group-3",
+        "group": "Set 3",
         "images": [
             "https://images.unsplash.com/photo-1497290756760-23ac55edf36f?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
             "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "group": "group-4",
+        "group": "Set 4",
         "images": [
             "https://images.unsplash.com/photo-1490100667990-4fced8021649?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjE0NTg5fQ&amp;h=800",
