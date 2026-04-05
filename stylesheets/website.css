@@ -11,3 +11,21 @@ img {
     height: 100%;
     object-fit: contain;
 }
+
+.footer {
+    display: inline-block;
+}
+
+footer {
+    padding: 3px;
+    padding-left: 2vw;
+    margin: 0.4em;
+    background-color: rgb(4, 146, 146);;
+    color: rgb(13, 15, 24);
+    border-radius: 15px;
+}
+
+a:visited, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
