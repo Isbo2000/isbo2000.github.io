@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    url = 'https://storage.filebin.net/filebin/2ccf3db92d489a2fd213cce6d020d5aff226b395099d902a0bbb571c90b1ea86?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GK352fd2505074fc9dde7fd2cb%2F20260405%2Fhel1-dc4%2Fs3%2Faws4_request&X-Amz-Date=20260405T184626Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D900&response-content-disposition=inline%3B%20filename%3D%22gallery.json%22&response-content-type=application%2Fjson&x-id=GetObject&X-Amz-Signature=6203a70767f9a353cae8a41bb88be8432399e8668c1fb05bac769a999bdc3ed2';
+    url = 'https://raw.githubusercontent.com/Isbo2000/isbo2000.github.io/refs/heads/dev/assets/gallery/gallery.json';
     fetch(url).then(response => {return response.json();}).then(function (data) {
         for (var group in data) {
             var newGroup = "";
