@@ -75,12 +75,10 @@ $(document).ready(function () {
             let newLink = "";
 
             newLink += "<a href='";
-            newLink += link.url;
+            newLink += data[link].url;
             newLink += "'><i class='ico ";
-            newLink += link.icon;
+            newLink += data[link].icon;
             newLink += "'></i></a>";
-
-            console.log(newLink);
 
             $('#links').append(newLink);
         }
