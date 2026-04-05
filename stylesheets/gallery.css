@@ -108,12 +108,18 @@ li {
 }
 
 h1 {
-    width: 97%;
-    padding-left: 3%;
+    padding: 2%;
+    margin: 1vmin;
     color: rgb(19, 38, 100);
     font-size: 5vmin;
     font-weight: 900;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    background-color: rgb(58, 177, 177);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group {
+    width: 100%;
 }
 
 .footer {
