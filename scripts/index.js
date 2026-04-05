@@ -76,7 +76,7 @@ $(document).ready(function () {
 
             newLink += "<a href='";
             newLink += data[link].url;
-            newLink += "'><i class='ico ";
+            newLink += "' target='_blank'><i class='ico ";
             newLink += data[link].icon;
             newLink += "'></i></a>";
 
