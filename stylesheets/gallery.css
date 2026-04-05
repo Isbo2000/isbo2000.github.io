@@ -85,6 +85,23 @@ body {
     opacity: 1;
 }
 
+#gallery {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    width: 97%;
+    padding-left: 3%;
+}
+
 .footer {
     display: inline-block;
 }
