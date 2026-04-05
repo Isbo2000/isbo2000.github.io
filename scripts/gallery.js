@@ -23,3 +23,23 @@ document.addEventListener('DOMContentLoaded', function() {
     // object-fit and object-position polyfill
     objectFitImages();
 });
+
+$(document).ready(function () {
+    url = 'https://isbo.cc/assets/gallery.json';
+    fetch(url).then(response => {return response.json();}).then(function (data) {
+        for (let link in data) {
+            let newLink = "";
+
+            newLink += "<li><a href='";
+            newLink += link.url;
+            newLink += "' data-lightbox='";
+            newLink += link.group;
+            newLink += "'><img class='lazyload' data-src='";
+            newLink += link.url;
+            newLink += "' loading='lazy'/></a></li>";
+
+
+            $('#gallery').append(newLink);
+        }
+    });
+});
