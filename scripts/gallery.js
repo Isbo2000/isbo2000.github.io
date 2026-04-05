@@ -5,7 +5,9 @@ $(document).ready(function () {
             var newGroup = "";
 
             newGroup += "<li class='photogallery'><ul>";
-            newGroup += "<h1>test</h1>"
+            newGroup += "<h1>";
+            newGroup += data[group].group;
+            newGroup += "</h1>";
 
             for (let link in data[group].images) {
                 let newLink = "";
