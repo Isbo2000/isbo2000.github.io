@@ -54,7 +54,8 @@ a:visited, a:link, a:hover, a:active {
 .username {
     margin: 1%;
     margin-bottom: 5%;
-    font-size: 3.7vmin;
+    /* font-size: 3.7vmin; */
+    font-size: 2vw;
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
@@ -81,9 +82,17 @@ a:visited, a:link, a:hover, a:active {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.bioText {
+    padding-top: 3px;
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
+}
+
 .links {
     font-size: 4vmin;
-    padding-top: 4vmin;
+    padding-top: 3vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
