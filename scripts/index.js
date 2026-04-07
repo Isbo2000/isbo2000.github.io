@@ -1,12 +1,8 @@
 url = 'https://cdn.isbo.cc/website/ping';
 fetch(url).then(response => {return response.text();}).then(function (data) {
     if (data !== "pong") {
-        $(".card").css("display", "none");
-        $(".cdnDown").css("display", "block");
-        console.error("CDN is down; site will not work properly")
+        window.location.replace("./503.html")
     }
-
-    console.log(data);
 });
 
 $(document).ready(function () {
