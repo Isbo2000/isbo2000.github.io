@@ -1,3 +1,10 @@
+url = 'https://cdn.isbo.cc/website/ping';
+fetch(url).then(response => {return response.text();}).then(function (data) {
+    if (data !== "pong") {
+        window.location.replace("./503")
+    }
+});
+
 $(document).ready(async function () {
     var min = 200;
     var max = 500;
