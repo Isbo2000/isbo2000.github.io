@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    url = 'https://isbo.cc/assets/gallery/gallery.json';
+    url = 'https://cdn.isbo.cc/website/configs/gallery.json';
     fetch(url).then(response => {return response.json();}).then(function (data) {
         var min = 200;
         var max = 500;
