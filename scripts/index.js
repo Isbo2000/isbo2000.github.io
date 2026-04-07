@@ -83,4 +83,13 @@ $(document).ready(function () {
             $('#links').append(newLink);
         }
     });
+
+    url = 'https://cdn.isbo.cc/website/configs/user.json';
+    fetch(url).then(response => {return response.json();}).then(function (data) {
+        $('#name').text(data["name"]);
+
+        $('#agePronounce').text(data["age"]+" | "+data["pronounce"]);
+
+        $('#bio').text(data["bio"]);
+    });
 });
