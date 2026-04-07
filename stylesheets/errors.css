@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(22, 187, 228);;
+}
+
+body {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 7vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    background-color: rgb(4, 146, 146);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 7vmin;
+}
+
+h1, h3, h5, p {
+    margin: 0px;
+}
+
+p {
+    font-size: 4vmin;
+}
+
+hr {
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}

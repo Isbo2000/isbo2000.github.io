@@ -1,3 +1,10 @@
+url = 'https://cdn.isbo.cc/website/ping';
+fetch(url).then(response => {return response.text();}).then(function (data) {
+    if (data !== "pong") {
+        window.location.replace("./503")
+    }
+});
+
 $(document).ready(function () {
     /* Store the elements with class "tilt" in elements */
     let elements = Array.from(document.getElementsByClassName("tilt"));
@@ -82,5 +89,14 @@ $(document).ready(function () {
 
             $('#links').append(newLink);
         }
+    });
+
+    url = 'https://cdn.isbo.cc/website/configs/user.json';
+    fetch(url).then(response => {return response.json();}).then(function (data) {
+        $('#name').text(data["name"]);
+
+        $('#agePronounce').text(data["age"]+" | "+data["pronounce"]);
+
+        $('#bio').text(data["bio"]);
     });
 });
