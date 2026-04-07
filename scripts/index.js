@@ -69,7 +69,7 @@ $(document).ready(function () {
     });
     });
 
-    url = 'https://isbo.cc/assets/links.json';
+    url = 'https://cdn.isbo.cc/website/configs/links.json';
     fetch(url).then(response => {return response.json();}).then(function (data) {
         for (let link in data) {
             let newLink = "";
