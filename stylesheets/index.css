@@ -156,3 +156,46 @@ a:visited, a:link, a:hover, a:active {
     width: 90%;
     margin: 4.5%;
 }
+
+@media all and (orientation: portrait) {
+    .card {
+        height: fit-content;
+    }
+
+    .usercard, .container, .main {
+        margin: 5%;
+        width: 90%;
+    }
+
+    .profile {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .username {
+        font-size: 7vw;
+    }
+
+    .pronounce {
+        font-size: 5.5vw;
+    }
+
+    .bio {
+        font-size: 4.5vw;
+    }
+
+    .links {
+        font-size: 8vw;
+        padding: 5vw;
+    }
+
+    .ico {
+        width: 8vw;
+        padding: 1vw;
+    }
+
+    .main {
+        margin-top: 2%;
+    }
+}
