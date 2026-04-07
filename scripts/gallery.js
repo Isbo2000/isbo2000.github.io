@@ -1,41 +1,81 @@
-$(document).ready(function () {
-    url = 'https://cdn.isbo.cc/website/configs/gallery.json';
-    fetch(url).then(response => {return response.json();}).then(function (data) {
-        var min = 200;
-        var max = 500;
+$(document).ready(async function () {
+    var min = 200;
+    var max = 500;
+    
+    const url = "https://cdn.isbo.cc/website/gallery/";
 
-        for (var group in data) {
-            var newGroup = "";
+    let groups = await fetchGroups(url);
 
-            newGroup += "<li class='photogallery'><ul>";
-            newGroup += "<div class='group'><h1>";
-            newGroup += data[group].group;
-            newGroup += "</h1></div>";
+    for (let i in groups) {
+        let group = groups[i];
 
-            for (let link in data[group].images) {
-                let newLink = "";
+        var newGroup = "";
 
-                newLink += "<li><a href='";
-                newLink += data[group].images[link];
-                newLink += "' data-lightbox='";
-                newLink += data[group].group;
-                newLink += "'><img class='lazyload' data-src='";
-                newLink += data[group].images[link];
-                newLink += "' loading='lazy' width='"
-                newLink += Math.floor(Math.random() * (max - min + 1)) + min;
-                newLink += "'/></a></li>";
+        newGroup += "<li class='photogallery'><ul>";
+        newGroup += "<div class='group'><h1>";
+        newGroup += group;
+        newGroup += "</h1></div>";
 
-                newGroup += newLink;
-            }
-            
-            newGroup += "</ul></li>";
+        let newUrl = url+group;
+        let images = await fetchImages(newUrl);
 
-            $('#gallery').append(newGroup);
+        for (let i in images) {
+            let image = images[i];
 
-            lazyLoading();
+            let newImage = "";
+
+            newImage += "<li><a href='";
+            newImage += url+group+"/"+image;
+            newImage += "' data-lightbox='";
+            newImage += group;
+            newImage += "'><img class='lazyload' data-src='";
+            newImage += url+group+"/thumbnails/"+image;
+            newImage += "' loading='lazy' width='"
+            newImage += Math.floor(Math.random() * (max - min + 1)) + min;
+            newImage += "'/></a></li>";
+
+            newGroup += newImage;
         }
-    });
+
+        newGroup += "</ul></li>";
+
+        $('#gallery').append(newGroup);
+
+        lazyLoading();
+    }
 });
+
+async function fetchGroups(url) {
+    return fetch(url).then(response => {return response.text()}).then(function (data) {
+        let response = data.match(/href=\".*(?<!\.)\/\">/gm);
+        var groups = [];
+
+        for (let i in response) {
+            var group = response[i].replace(/href=\"/, "")
+            group = group.replace(/\/\">/, "");
+            
+            groups.push(group);
+        }
+
+        return groups;
+    });
+}
+
+async function fetchImages(url) {
+    return fetch(url).then(response => {return response.text()}).then(function (data) {
+        let response = data.match(/href=\".*(?<!\/)\">/gm);
+        var images = [];
+
+        for (let i in response) {
+            let image = response[i].replace(/href=\"/, "");
+            image = image.replace(/\">/, "");
+
+            images.push(image);
+        }
+
+        return images;
+    })
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     lazyLoading();
