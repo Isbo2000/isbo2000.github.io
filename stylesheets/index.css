@@ -4,6 +4,22 @@ body, html {
     margin: 0;
 }
 
+.cdnDown {
+    display: none;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: rgb(4, 146, 146);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 5vmin;
+}
+
 .card {
     float: left;
     height: 100%;
@@ -13,7 +29,7 @@ body, html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1, h3, p {
+h1, h3, h4, p {
     margin: 0px;
 }
 

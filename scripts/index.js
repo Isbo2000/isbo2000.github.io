@@ -1,3 +1,14 @@
+url = 'https://cdn.isbo.cc/website/ping';
+fetch(url).then(response => {return response.text();}).then(function (data) {
+    if (data !== "pong") {
+        $(".card").css("display", "none");
+        $(".cdnDown").css("display", "block");
+        console.error("CDN is down; site will not work properly")
+    }
+
+    console.log(data);
+});
+
 $(document).ready(function () {
     /* Store the elements with class "tilt" in elements */
     let elements = Array.from(document.getElementsByClassName("tilt"));
