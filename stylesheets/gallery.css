@@ -30,7 +30,7 @@ footer, .photogallery {
 
 .photogallery li {
     flex-grow: 1;
-    height: 30vh;
+    height: 40vh;
     margin: 0.4em;
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
